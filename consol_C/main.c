@@ -9,9 +9,6 @@
 int main(int argc, char **argv)
 {
 #ifdef _WIN32
-    //    int _setmode(int, int);
-    //    _setmode(0, 0x8000);
-    //    _setmode(1, 0x8000);
     SetConsoleOutputCP(CP_UTF8);
 #endif
     for (int ii = 0; ii < argc; ii++) {
